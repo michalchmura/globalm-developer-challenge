@@ -1,19 +1,18 @@
 # ![Global M logo](https://www.global-m.co.uk/images/logo-full-black-4535cc94bc594e8e7492fbb737a515ef.png) 
----
 
-#[Global {M}](https://www.global-m.co.uk) Developer Challenge
+# [Global {M}](https://www.global-m.co.uk) Developer Challenge
 
 - **If you're stuck at any point, don't hesitate to contact me at `michal@global-m.co.uk`.**
 
 ## Dependencies
 
-####Server:
+#### Server:
 
 - Server uses **Node.js** `v7.7.1` (you can quickly switch to project's node version with `nvm use`, check `.nvmrc` and `nvm` if you are not familiar with it).
 
 - Server code requires **MongoDB** instance running on your localhost (you can adjust the parameters inside `server/config.js` file).
 
-####Client:
+#### Client:
 
 - To run Client code, it requires to have `ember-cli` `bower` and `watchmen` installed globally.
 Check [Ember dev guide]([!https://ember-cli.com/user-guide/]) for details.
@@ -48,8 +47,9 @@ Check [Ember dev guide]([!https://ember-cli.com/user-guide/]) for details.
 3. Install [ember-concurrency](http://ember-concurrency.com/docs/introduction/) add-on.
 4. Generate **new route** and recreate steps 1-2 utilising `ember-concurrency`.
    - _In the end, there should be **2 independent** approaches showcasing the same functionality._  
+   - Utilise `ember-concurrency` states and add visual cues - _is content loading? did you restart the search task?_
 
-5. Create few Acceptance, Unit and Integration tests _(1/2 each; the code **doesn't** have to be 100% covered!)_.
+5. Create few Acceptance, Unit and Integration tests _(1/2 each is enough; the code **doesn't** have to be 100% covered!)_.
 
 ##### Bonus tasks:
 - Pagination.
@@ -58,7 +58,7 @@ Check [Ember dev guide]([!https://ember-cli.com/user-guide/]) for details.
 
 ####  Tasks for Server:
 1. Finish up remaining controller methods for CRUD functionality.
-2. Create few Integration and Unit tests _(1/2 each, the code **doesn't** have to be 100% covered!)_.
+2. Create few Integration and Unit tests _(1/2 each is enough, the code **doesn't** have to be 100% covered!)_.
 
 ##### Bonus tasks:
 - Pagination.
