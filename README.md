@@ -15,7 +15,7 @@
 #### Client:
 
 - To run Client code, it requires to have `ember-cli` `bower` and `watchmen` installed globally.
-Check [Ember dev guide]([!https://ember-cli.com/user-guide/]) for details.
+Check [Ember dev guide](https://ember-cli.com/user-guide/) for details.
 
 ## Starting it up
 
