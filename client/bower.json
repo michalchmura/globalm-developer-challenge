@@ -1,0 +1,6 @@
+{
+  "name": "client",
+  "dependencies": {
+    "semantic-ui": "^2.3.1"
+  }
+}

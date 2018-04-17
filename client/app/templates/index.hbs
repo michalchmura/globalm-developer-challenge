@@ -1,0 +1,11 @@
+<div class="ui grid center aligned" style="padding-top: 5rem !important;">
+  <div class="ui ten wide column">
+    <div class="ui segment three columns raised black grid">
+      {{#each model as |m|}}
+          {{item-candidate model=m class="ui column"}}
+      {{/each}}
+    </div>
+  </div>
+</div>
+
+{{outlet}}
