@@ -21,17 +21,27 @@ Check [Ember dev guide]([!https://ember-cli.com/user-guide/]) for details.
 
 1. There's a seed generator script. Run it first (`babel-node server/seed.js`) to populate your database!
 
-2. To run server simply type `npm start` inside _`server`_ folder (don't forget to `npm install` on first usage).
+2. Install **server** dependencies:
+  2a. Navigate to **_`server`_** folder:
+  2b. `npm install`
 
-3. To launch client simply type `npm start` inside _`client`_ folder (don't forget to `npm install` and `bower install` on first usage).
+3. Install **client** dependencies:
+  3a. Navigate to **_`client`_** folder:
+  3b. `npm install`
+  3c. `ember install semantic-ui-ember@2.0`
+  3d. `ember generate semantic-ui-ember`
 
-4. To run tests: `@TODO: configure it`.
+4. To run server simply type `npm start` inside _`server`_ folder.
+
+5. To run client simply type `npm start` inside _`client`_ folder.
+
+6. To run tests: `@TODO: configure it`.
 
 ---
 ## Challenge tasks:
 
 #### General guidelines:
-- Utilise [**Semantic UI**](https://semantic-ui.com/) for all of your views (client comes with *Semantic UI* preinstalled).
+- Utilise [**Semantic UI**](https://semantic-ui.com/) for all of your views (you should install Semantic UI from CLI - see points `3a-3d` in _Starting it up_ section).
 - Make sure that all endpoints are optimised.
 - Use testing suite of your choice.
 - Code **doesn't** have to have 100% test coverage!
